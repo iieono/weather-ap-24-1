@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+#container-main {
+  background-image: url('https://plus.unsplash.com/premium_photo-1673515243602-a0d2212af213?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; 
+  background-position: center; 
+}
+.clean-rotate{
+  transition: transform 0.5s ease;
+}
+.clean-width{
+  transition: width 0.5s ease;
+
+}
+
+.font-salsa{
+  font-family: 'Salsa', cursive;
+
+}
+.container-uv{
+  background: linear-gradient(to right, 
+  #b3ff99 0%,
+  #FFFF00 20%, 
+  #FFA500 40%,  
+  #FF0000 60%,  
+  #8A2BE2 100%   
+);
+}
+.half-white{
+  background: linear-gradient(to right, transparent 50%, #fff 50%);
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.time-scroll::-webkit-scrollbar {
+  height: 10px;
+  border-radius: 5px; 
+}
+
+.time-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.time-scroll::-webkit-scrollbar-track {
+  background-color: #57534e; /* Set the background color to blue */
+  border-radius: 5px; /* Match the border-radius of the thumb for consistency */
+}
