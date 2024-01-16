@@ -88,7 +88,7 @@ function App() {
     const long = longg || longitude || 69.2518912;
 
     const config = {
-      url: `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&units=metric&appid=1cf8c670d05cc10185e2f658d0032f94`,
+      url: `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&units=metric&appid=API_KEY`,
       method: "GET",
       headers: {
         "Content-Type": "application/json",
